@@ -3,7 +3,7 @@ from tqdm import tqdm
 import pyglet
 import sounds
 
-n = 10000
+n = int(input("Введите раз мер массива: "))
 array = [random.randint(1, 1000000) for _ in range(n)]
 
 def bubble_sort(arr):
